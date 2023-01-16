@@ -1,0 +1,149 @@
+/* mobile responsive */
+
+/* banner section  */
+
+ @media screen and (max-width: 576px) {
+    
+    .container{
+        width: auto;
+    }
+    .row {
+        flex-direction: column;
+    }
+    button {
+        font-size: 18px;
+        padding: 13px 18px;
+    }
+    nav {
+        padding-top: 30px;
+    }
+    .menu{
+        padding-top: 15px;
+    }
+    /* banner */
+    #banner{
+        padding: 0 12px;
+    }
+    #banner .banner_content {
+        padding: 0px 1em;
+    }
+    #banner .banner_content h1 {
+        font-size: 45px;
+        line-height: 65px;
+        padding-bottom: 15px;
+        padding-top: 70px;
+    }
+
+    /* features */
+    #features {
+        padding: 60px 12px 60px 12px;
+    }
+
+    .features_content {
+        flex-direction: column-reverse;
+    }
+    .features_info {
+        width: 100%;
+        padding-left: 0px;
+    }
+    .features_info h3 {
+        font-weight: 500;
+        font-size: 35px;
+        line-height: 48px;
+    }
+
+    .features_thumb {
+        width: 100%;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 18px;
+        padding-top: 30px;
+    }
+    /* fact */
+    .counterup_list {
+        grid-template-columns: repeat(1, 1fr);
+        /* justify-content: space-around; */
+        gap: 40px;
+        padding-top: 40px;
+    }
+
+    /* best_ft */
+    #best_ft{
+        margin: 0 12px;
+    }
+    .best_ft_info {
+        width: 100%; 
+        padding: 0 12px;
+
+    }
+    #best_ft .section_title h2 {
+        padding-right: 0;
+        position: relative;
+    }
+    .best_ft_img {
+        width: 100%;
+
+    }
+    #best_ft img {
+        height: 600px;
+        padding-left: 0px;
+
+    }
+    button span {
+        font-size: 34px;
+        font-weight: 700;
+        line-height: 48px;
+    }
+    #best_ft button {
+        padding: 22px 42px;
+        left: 100px;
+    }
+
+    /* fact */
+    #fact {
+        padding-top: 30px;
+        padding-right: 12px;
+        padding-left: 12px;
+        padding-bottom: 80px;
+    }
+    .section_title h2 {
+       padding-left: 20px; 
+    }
+    .sponser_images{
+        padding: 0 12px;
+        gap: 80px;
+    }
+
+    .footer_content{
+        background-color: #FFF4E7;
+        padding: 25px 0 25px;
+        margin-bottom: 70px;
+    }
+    .nav_icon{
+        display: block;
+    }
+
+    .menu ul{
+        display: inline-block;
+        align-items: center;
+        gap:30px ;
+    }
+
+    .menu{
+        display: none;
+        transition: all linear .3s;
+    }
+    .nav_icon{
+        font-size: 24px;
+    }
+    .nav_icon:hover menu{
+        display: block;
+    }
+    header{
+        padding: 0 12px;
+    }
+    header .row{
+        flex-direction: row;
+    }
+ }
+
+ 
